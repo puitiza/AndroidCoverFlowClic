@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <translate android:fromYDelta="0" android:toYDelta="100%p"
+        android:duration="@android:integer/config_mediumAnimTime"/>
+    <alpha android:fromAlpha="1.0" android:toAlpha="0.0"
+        android:duration="@android:integer/config_mediumAnimTime"/>
+</set>
+
+ <!--   At this point,you don't need to change Y-direction at all.so that would be 0% for both the options.So finally,you will have:
+    fromXDelta 100%
+    toXDelta 0%
+    fromYDelta 0%
+    toYDelta 0%
+    you can restrict view of the component by setting this percentages between 0 to 100,as per your requirement.
+    Similarly,if you need to translate your component on Y-direction as well,then you need to change 0% to some other value.
+    Hope,its clear to you now.-->
